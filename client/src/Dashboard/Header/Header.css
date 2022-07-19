@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px 1% 0px 1.2%;
+}
+
+.header .save__button {
+    padding: 6px 12px!important;
+    font-size: 16px;
+    background-size: 200px;
+    background: linear-gradient( 90deg, rgba(255, 39, 165, 1), rgba(136, 93, 255, 1) 51%, rgba(255, 39, 165, 1)) var(--x, 0) / 200%;
+    border-radius: 4px;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+
+.header .save__button:hover {
+    --x: 100%;
+    border: none;
+}
+
+.header .search__notes {
+    width: 30vw;
+}
+
+.header .search__notes label {
+    color: #fff;
+}
+
+.header .search__notes input {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.header .search__notes fieldset {
+    border-color: rgba(255, 255, 255, 0.326) !important;
+    border-width: 1.5px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:800px) {
+    .header .search__notes {
+        width: 50vw;
+    }
+}

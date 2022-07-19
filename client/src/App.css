@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Exo 2", sans-serif;
+    color: #ffffff;
+}

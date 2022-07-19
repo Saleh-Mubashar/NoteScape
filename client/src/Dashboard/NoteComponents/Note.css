@@ -1,0 +1,162 @@
+.note {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.326);
+    color: #fff;
+    padding: 5px 15px 15px 15px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    row-gap: 10px;
+}
+
+.create__note {
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+}
+
+.note__header {
+    height: 40px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+}
+
+.note:not(.create__note) .note__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create__note .note__header {
+    height: unset;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s all ease-in-out;
+}
+
+.note__header.editing {
+    transition: 0.3s all ease-in-out;
+}
+
+.note__header input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    resize: none;
+    font-size: 18px;
+    cursor: auto;
+    font-family: monospace;
+}
+
+.note__header input::placeholder {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.note__header.editing:focus-within {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.note__body {
+    height: 135px;
+    max-height: 135px;
+    overflow: auto;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.note__body::-webkit-scrollbar {
+    width: 4px;
+    cursor: pointer;
+}
+
+.note__body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(201, 201, 201, 0.3);
+    cursor: pointer;
+}
+
+.note__body::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: rgb(239, 239, 239);
+}
+
+.note textarea {
+    white-space: pre-wrap;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.914);
+    resize: none;
+    font-size: 16px;
+    cursor: auto;
+}
+
+.note textarea::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.note textarea:focus,
+.note__header input:focus {
+    outline: none;
+}
+
+.note textarea::-webkit-scrollbar {
+    width: 4px;
+    cursor: pointer;
+}
+
+.note textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(201, 201, 201, 0.3);
+    cursor: pointer;
+}
+
+.note textarea::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: rgb(239, 239, 239);
+}
+
+.note__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.note__save {
+    background: transparent;
+    transition: 0.2s ease-in-out;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.note__save:hover {
+    background: #fff;
+    border: 1.5px solid #fff;
+    color: #4b1589;
+}
+
+.note__delete,
+.note__edit {
+    cursor: pointer;
+    font-size: 21px !important;
+}
+
+.note__delete {
+    color: rgba(239, 68, 68, 1);
+}
+
+.char__progress {
+    background-color: #fff !important;
+}

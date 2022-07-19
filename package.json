@@ -1,0 +1,36 @@
+{
+    "name": "dev",
+    "version": "1.0.0",
+    "engines": {
+        "node": "16.15.1"
+    },
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "client-install": "cd client && npm install",
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "proxy": "http://localhost:5000",
+    "keywords": [],
+    "author": "Saleh M",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.0",
+        "compression": "^1.7.4",
+        "concurrently": "^7.2.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-session": "^1.17.3",
+        "express-static-gzip": "^2.1.7",
+        "mysql2": "^2.3.3",
+        "nodemon": "^1.4.1",
+        "react-router-loading": "^1.0.0",
+        "serve": "^14.0.1"
+    }
+}

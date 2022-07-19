@@ -1,0 +1,42 @@
+.main {
+    margin: 50px auto 0px auto;
+    padding: 0px 30px;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    overflow-x: hidden;
+}
+
+.notes {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, minmax(calc(200px + 10vw), 1fr));
+}
+
+.notes .note {
+    min-width: calc(200px + 10vw);
+}
+
+@media screen and (max-width: 1300px) {
+    .main {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .notes {
+        grid-template-columns: repeat(2, minmax(calc(200px + 14vw), 1fr));
+    }
+    .notes .note {
+        min-width: calc(200px + 10vw);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .notes {
+        grid-template-columns: repeat(1, minmax(calc(100px + 50vw), 1fr));
+    }
+}

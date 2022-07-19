@@ -6,9 +6,7 @@ The env file will need to be create in the main directory. This contians the DAT
 
 Hello readers!. This is my submission for the Hashnode x PlantScale hackathon. This took me around 2 weeks to build. All the features make use of the PlantScale database in some way.
 
-Check out the site : [NoteScape](Link)
-
-And the Source Code : 
+Check out the site : [NoteScape](Link)]
 
 
 ---

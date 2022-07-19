@@ -6,7 +6,7 @@ The env file will need to be create in the main directory. This contians the DAT
 
 Hello readers!. This is my submission for the Hashnode x PlantScale hackathon. This took me around 2 weeks to build. All the features make use of the PlantScale database in some way.
 
-Check out the site : [NoteScape](Link)]
+Check out the site : [NoteScape](https://note-scape.herokuapp.com/)
 
 
 ---
@@ -87,11 +87,12 @@ In the end I just want to say thank you to the Hashnode and PlantScale teams for
 
 My app can still be **immensely** improved with newer features, but I am satisfied with what I have man aged to create with my meagre 1 year of experience with React.
 
-Thanks You 😊
+Thank You 😊
 
 
 # Links 🔗
 
-Check out the site : [NoteScape](Link)
+Check out the site : [NoteScape](https://note-scape.herokuapp.com/)
 
 And the Source Code : https://github.com/Saleh-Mubashar/NoteScape/
+

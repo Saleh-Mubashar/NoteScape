@@ -24,8 +24,7 @@
 }
 
 .next__button:hover {
-    background-color: #523c8e!important;
-    border-color: #523c8e!important;
+    border-color: #b344f1!important;
 }
 
 .login__form form {
@@ -37,9 +36,9 @@
     flex-direction: column;
     row-gap: 15px;
     border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 30px rgba(8, 7, 16, 0.298);
 }
 
@@ -66,7 +65,8 @@
 }
 
 .login__form .login__input fieldset {
-    border-color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    border-width: 1.5px;
 }
 
 .login__form .login__submit {

@@ -191,7 +191,7 @@ function Login(props) {
               endAdornment: (
                 <InputAdornment position="end">
                   <IconButton
-                    sx={{ color: "#fff" }}
+                    sx={{ color: "#fff", margin: "3px -10px 0px 0px" }}
                     aria-label="toggle password visibility"
                     onClick={() => setShowPassword(!showPassword)}
                   >
@@ -200,7 +200,6 @@ function Login(props) {
                         sx={{
                           width: "22px",
                           height: "22px",
-                          margin: "3px -10px 0px 0px",
                         }}
                       />
                     ) : (
@@ -208,7 +207,6 @@ function Login(props) {
                         sx={{
                           width: "22px",
                           height: "22px",
-                          margin: "3px -10px 0px 0px",
                         }}
                       />
                     )}

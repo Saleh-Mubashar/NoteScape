@@ -68,18 +68,20 @@
     font-size: 15px;
     color: #fff;
     border-color: #fff;
-    padding: 10px 18px;
-}
-
-.button__group a .register {
-    border: transparent;
-    transition: 0.4s ease-in-out;
-    background: linear-gradient( 90deg, rgba(255, 39, 165, 1), rgba(136, 93, 255, 1) 51%, rgba(255, 39, 165, 1)) var(--x, 0) / 200%;
+    padding: 8px 18px;
+    border-width: 2px;
 }
 
 .button__group .login:hover {
-    background-color: #523c8e;
-    border-color: #523c8e;
+    border-width: 2px;
+    border-color: #b344f1;
+}
+
+.button__group a .register {
+    padding: 10px 18px;
+    border: transparent;
+    transition: 0.4s ease-in-out;
+    background: linear-gradient( 90deg, rgba(255, 39, 165, 1), rgba(136, 93, 255, 1) 51%, rgba(255, 39, 165, 1)) var(--x, 0) / 200%;
 }
 
 .button__group .register:hover {
@@ -149,7 +151,7 @@
 }
 
 .features h1 {
-    background-image: linear-gradient( 135deg, #3e9ff5 1.93%, #8a4bbb 14.86%, #ff455d 48.09%, #f35815 77.82%, #f2b600 97.3%);
+    background-image: linear-gradient(to right, #6366f1, #ec4899);
     background-clip: text;
     color: transparent;
     margin-bottom: -20px;

@@ -44,7 +44,8 @@
 }
 
 .register__form .register__input fieldset {
-    border-color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    border-width: 1.5px;
 }
 
 .register__form .register__submit {

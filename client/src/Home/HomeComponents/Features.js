@@ -89,8 +89,7 @@ function Features() {
             <SearchIcon></SearchIcon>
             <Typography variant="h6">Search and Filter</Typography>
             <Typography>
-              Search for the required note and Sort the notes according to the
-              date of creation.
+              Search for the required note and Sort the notes according to date and title.
             </Typography>
           </Box>
         </Box>

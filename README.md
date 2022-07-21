@@ -51,8 +51,6 @@ These are all the main features you will find on my [app](https://note-scape.her
 9. Sort the Notes. You can sort by date or by the note title.
 10. Save Notes. To save the notes, you can click on the save button in the top right corner. This saves the Notes in the PlantScale database.
 
-![Features](https://cdn.hashnode.com/res/hashnode/image/upload/v1658241114398/KXh3xDJzK.png align="left")
-
 
 # Building Process
 

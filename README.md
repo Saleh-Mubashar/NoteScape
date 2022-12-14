@@ -6,16 +6,16 @@ The env file will need to be create in the main directory. This contians the DAT
 
 Hello readers!. This is my submission for the Hashnode x PlantScale hackathon. This took me around 2 weeks to build. All the features make use of the PlantScale database in some way.
 
-Check out the site : [NoteScape](https://note-scape.herokuapp.com/)
+Check out the site : [NoteScape](https://note-scape.onrender.com/)
 
 
 ---
 
 # Introducing NoteScape
 
-As the tagline says, [NoteScape](https://note-scape.herokuapp.com/) is my attempt at creating a simple yet effective Note taking app. The main focus of this app is to give users all the essential features you would normally find in a todo/notes app, while keeping the User Interface simple and minimalistic.
+As the tagline says, [NoteScape](https://note-scape.onrender.com/) is my attempt at creating a simple yet effective Note taking app. The main focus of this app is to give users all the essential features you would normally find in a todo/notes app, while keeping the User Interface simple and minimalistic.
 
-Personally, I found that many popular Note taking and Todo List apps are not very beginner friendly and have a steep learning curve. [NoteScape](https://note-scape.herokuapp.com/) is not only very beginner friendly, but also quite powerful with all the essential features you would need.
+Personally, I found that many popular Note taking and Todo List apps are not very beginner friendly and have a steep learning curve. [NoteScape](https://note-scape.onrender.com/) is not only very beginner friendly, but also quite powerful with all the essential features you would need.
 
 # Tech Stack
 
@@ -34,7 +34,7 @@ Personally, I found that many popular Note taking and Todo List apps are not ver
 
 # Features
 
-These are all the main features you will find on my [app](https://note-scape.herokuapp.com/):
+These are all the main features you will find on my [app](https://note-scape.onrender.com/):
 
 1.  Home Page : On the Home Page you have the option to Register/Login and also the features of the  app are listed too.
 
@@ -90,7 +90,7 @@ Thank You 😊
 
 # Links 🔗
 
-Check out the site : [NoteScape](https://note-scape.herokuapp.com/)
+Check out the site : [NoteScape](https://note-scape.onrender.com/)
 
 And the Source Code : https://github.com/Saleh-Mubashar/NoteScape/
 
